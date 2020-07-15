@@ -1,0 +1,40 @@
+{
+  "name": "fastify-auth-scheme",
+  "version": "0.1.0",
+  "description": "Fastify Authentication Library",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius0026/fastify-auth-scheme.git"
+  },
+  "keywords": [
+    "node",
+    "fastify",
+    "auth"
+  ],
+  "author": "Vinicius Teixeira <vinicius0026@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinicius0026/fastify-auth-scheme/issues"
+  },
+  "homepage": "https://github.com/vinicius0026/fastify-auth-scheme#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@types/node": "^14.0.23",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "fastify": "^3.0.2",
+    "fastify-plugin": "^2.0.1"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2
+  }
+}
