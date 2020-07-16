@@ -29,7 +29,8 @@
     "npm-release": "^1.0.0",
     "prettier": "^2.0.5",
     "ts-jest": "^26.1.2",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.6",
+    "prepublish": "tsc"
   },
   "dependencies": {
     "fastify": "^3.0.2",
