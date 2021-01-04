@@ -1,6 +1,6 @@
 # fastify-auth-scheme
 
-Inspired by hapi authenticatio flow, this plugin brings allows to register authentication strageties in your fastify server, define a default strategy that will be applied to all routes and allows overriding the default at the route.
+Inspired by hapi authentication flow, this plugin allows registering authentication strategies in your fastify server, define a default strategy that will be applied to all routes and override the default strategy at the route level.
 
 This plugin doesn't implement any authentication strategies though, that's up to you to define.
 
@@ -13,7 +13,7 @@ import fastify from "fastify";
 import fastifyAuthScheme from "fastify-auth-scheme";
 
 const server = fastify();
-server.register(fastifyAuthScheme);
+await server.register(fastifyAuthScheme);
 
 server.auth.addStrategy("my-auth-strategy", async (request, reply) => {
   // do your auth logic here
